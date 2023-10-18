@@ -1,0 +1,3 @@
+packages:
+- 'packages/plugin-sri'
+- 'packages/examples/*'
