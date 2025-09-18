@@ -1,7 +1,7 @@
 {
   "name": "@lucaswong98/vite-subresource-integrity-plugin",
-  "version": "1.0.0",
-  "description": "Adds subresource integrity for vite",
+  "version": "1.0.1",
+  "description": "Adds dynamicsubresource integrity for vite",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucaswong98/vite-subresource-integrity-plugin.git"
@@ -37,5 +37,10 @@
     "typescript": "^5.9.2",
     "vite": "^7.1.6",
     "vitest": "^0.34.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild@<=0.24.2": ">=0.25.0"
+    }
   }
 }
