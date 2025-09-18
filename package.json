@@ -1,5 +1,5 @@
 {
-  "name": "@lucaswong98/vite-plugin",
+  "name": "@lucaswong98/vite-subresource-integrity-plugin",
   "version": "1.0.0",
   "scripts": {
     "test": "pnpm build && pnpm -C packages/plugin-sri/ test",
