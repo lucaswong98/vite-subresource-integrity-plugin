@@ -139,7 +139,7 @@ function plugin(config?: PluginOptions): Plugin {
           if (!asset?.isEntry && vitePluginSriMaps[fileName]) {
             element.attribs.integrity = vitePluginSriMaps[fileName].integrity
             changed = true
-          } else {
+          } else if(asset) {
             vitePluginSriMaps[fileName] = {
               integrity: computeIntegrity(
                 algorithms,
